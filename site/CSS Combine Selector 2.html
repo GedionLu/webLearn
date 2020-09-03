@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh_CN">
+<head>
+	<meta charset="utf-8">
+	<title>CSS Combining Selector 2</title>
+	<style type="text/css">
+		section > article {
+			color: green;
+			font-size: 24px;
+		}
+		section > h2 {
+			color: green;
+		}
+		section li{
+			color: red;
+		}
+	</style>
+</head>
+<body>
+	<h1 class="highlight">CSS COOMBINING SELECTOR 2</h1>
+	<section>
+		<h2>subheader 1</h2>
+		<div>
+			<article>
+				here is a article !!!!				
+			</article>
+		</div>
+	</section>
+	<section>
+		<article>
+			here is a direct child articale 			
+		</article>		
+	</section>
+	<h2>subheader 2</h2>
+	<div>this a div with mian point and highlight</div>
+	<section>
+		table of contens:
+		<ul>
+			<li>article 1</li>
+			<li>article 2</li>
+			<li>article 3</li>
+		</ul>
+	</section>
+	<article>
+		table of contens 2:
+		<ul>
+			<li>article 4</li>
+			<li>article 5</li>
+			<li>article 6</li>
+		</ul>
+	</article>
+</body>
+</html>
